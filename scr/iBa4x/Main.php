@@ -70,6 +70,6 @@ Class Main extend PluginBasc implements Listender{
    $k = $cfg->get("K");
    $d = $cfg->get("D");
    $s = $cfg->get("S");
-    $p->sendTip(T::GREEN . "                                                                                           -+=+-" . "\n                                                                                          Kills: " . $k . "\n                                                                                          Death" . $d . "\n                                                                                          Scoer" . $s . "\n                                                                                          -+=+-");
+    $p->sendTip(T::GREEN . "                                                                                           -+=+-" . "\n                                                                                          Kills: " . $k . "\n                                                                                          Death" . $d . "\n                                                                                          Score" . $s . "\n                                                                                           -+=+-");
   }
  }

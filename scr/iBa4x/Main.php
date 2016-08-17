@@ -68,7 +68,9 @@ Class Main extend PluginBasc implements Listender{
    $cfg = new Config($this->getDetaFolder() . $name . ".yml", C::YAML);
    $k = $cfg->get("K");
    $d = $cfg->get("D");
-   $s = $cfg->get("S");
+   $o = count($this->getServer()->getOnlinePlayers());
+   $m = $this->getServer()->getMaxPlayers();
+   $online = "Online $o/$m";
    $player->sendTip(T::GREEN . "                                                             -+=+-" . "\n                                                            Kills: " . $k . "\n                                                            Death" . $d . "\n                                                            Score" . $s . "\n                                                             -+=+-");
   }
 }

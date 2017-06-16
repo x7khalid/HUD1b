@@ -1,2 +1,2 @@
 # HUD1b
-Stats Death and Kill and Score = Popup
+Stats Death,Kill & Score with the popup.
